@@ -14,7 +14,7 @@ const ResponsiveTemplate = styled.div`
     }
 `
 
-const Responsive = ({children, ...rest}) => {
+const Responsive = ({ children, ...rest }) => {
     return <ResponsiveTemplate {...rest}>{children}</ResponsiveTemplate>
 }
 

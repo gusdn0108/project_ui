@@ -19,7 +19,8 @@
     "react-scripts": "5.0.1",
     "router-dom": "^2.2.9",
     "styled-components": "^5.3.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@babel/core": "^7.17.10"
   },
   "scripts": {
     "start": "react-scripts start",
