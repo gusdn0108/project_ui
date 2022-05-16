@@ -2,7 +2,15 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>index</div>
+    <>
+      asdasd<dr></dr>
+      asdasd<dr></dr>
+      asdasd<dr></dr>
+      asdasd<dr></dr>
+      asdasd<dr></dr>
+      asdasd<dr></dr>
+      asdasd<dr></dr>
+    </>
   )
 }
 
