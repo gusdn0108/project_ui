@@ -11,30 +11,10 @@ import Responsive from "./components/common/Responsive";
 import Article from './components/common/Article'
 import { Box } from "@mui/system";
 import BoxSx from "./components/common/Box";
+import Signup from "./components/pages/Signup";
+import ImageSilder from "./components/common/imageSilder";
 
-// const App = () => {
-//   return (
-//     <>
-//       <Router>
-//         <Container fixed>
-//           <Header />
-//           <Grid xs="10">
-//             <Grid item xs="2">
-//               <Routes>
-//                 <Route path="/" index element={<Index />} />
-//               </Routes>
-//             </Grid>
-//             <Grid item xs="12">
-//               <Routes>
-//                 <Route path="/Login" index element={<Login />} />
-//               </Routes>
-//             </Grid>
-//           </Grid>
-//         </Container>
-//       </Router>
-//     </>
-//   );
-// };
+
 
 const App = () => {
   return (
@@ -42,23 +22,15 @@ const App = () => {
     <>
 
       <Router>
-
         <Container>
-
           <Responsive>
-
             <Header ></Header>
-
-            <Navbar></Navbar>
-
-            <Article></Article>
-
-            {/* <Login /> */}
-
+            <Routes>
+            <Route path="/Signup" element={<Signup/>} />
+            <Route path="/Slider" element={<ImageSilder/>} />
+            </Routes>
           </Responsive>
-
         </Container>
-
       </Router>
       <Footer></Footer>
     </>

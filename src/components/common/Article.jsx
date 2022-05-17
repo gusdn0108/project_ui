@@ -25,7 +25,7 @@ function Article() {
             <h2>아티클이래</h2>
             <ButtonGroup>
                 <Button variant="outlined" onClick={() => {
-                    setOpen(true)
+                    setOpen(true)   
                 }}>Login</Button>
                 <Button variant="outlined">Update</Button>
             </ButtonGroup>
