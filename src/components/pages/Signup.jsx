@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid , Paper , Avatar , Typography} from '@material-ui/core'
+import { Grid , Paper , Avatar , Typography ,TextField} from '@material-ui/core'
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 
 
@@ -17,6 +17,7 @@ const Signup = () => {
             </Avatar>
             <h2 style={headerStyle}>Sign Up</h2>
             <Typography variant='caption'>회원가입에 필요한 양식을 적어주세요</Typography>
+            <TextField></TextField>
         </Grid>
       </Paper>
   </Grid>
